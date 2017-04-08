@@ -46,3 +46,40 @@ color: MediumAquamarine;
 padding-left: 15px;
 font-size: 20px;
 }
+
+div {
+  border: 1px solid black;
+}
+
+
+.content {
+  display: flex;
+  width: 1300px;
+  margin: 0px auto; 78px auto;
+  padding-top: 116px;
+  justify-content: space-around;
+
+
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+
+.column-small {
+  width: 240px;
+}
+
+.image-content {
+  display: flex;
+  background-image: url(https://github.com/cazardie000/MyTimes/blob/master/resources/Images/img-story-main.png?raw=true);
+}
+
+div span {
+  display: flex;
+}
