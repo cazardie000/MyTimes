@@ -1,105 +1,208 @@
+
+
+
 header {
   display: flex;
-  align-items: center;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  height: 80px;
   border-bottom: 1px solid black;
-  background-color: white;
-  font-size; 14px;
-  font-weight: bold;
-}
-
-nav {
-  width: 302px;
-  height: 57px;
   font-family: verdana;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.header nav {
-   padding-right: 40px;
-   display: block;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+  top: -0px;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  flex-grow: 1;
-  padding-left: 30px;
+  width: 25%;
+  padding: 5px;
+  color: MediumAquamarine;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+.logo span {
+padding: 5px;
+}
+
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-weight: bold;
+  width: 100%;
+
 }
 
 nav span {
-  display: inline-block;
-  padding: 20px 10px;
+  padding: 10px;
 }
 
-.navlist {
-  width: 50px;
-  height: 80px;
-}
 
-.logo span {
-color: MediumAquamarine;
-padding-left: 15px;
-font-size: 20px;
-}
 
-div {
-  border: 1px solid black;
-  display: block;
-}
 
+
+
+h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
 
 .content {
   display: flex;
-  width: 1300px;
-  margin: auto;
-  padding-top: 116px;
   justify-content: center;
+  margin: 0 auto 78px auto;
+  padding-top: 115px;
+}
 
+.orca-breakfast {
+  display: flex;
 
 }
 
-.column.large {
+.orca-vacation {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.breakfast {
+  display: flex;
+  flex-direction: column;
+
+}
+.stories-images {
+  display: inline-flex;
+}
+
+.row-1 {
+  display: flex;
+  flex-flow: column;
+  padding-right: 20px;
   width: 630px;
+
+}
+.row-2 {
+  display: flex;
+  flex-flow: column;
+  width: 300px;
+  padding-right: 20px;
 }
 
-.column.medium {
+.row-3 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   width: 300px;
 }
 
 
-.column-small {
-  width: 240px;
+
+ul {
+  display: flex;
+  flex-flow: column;
 }
 
-.image-content {
+.wine-picture {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
   height: 300px;
-  margin-top: 15px;
-  font-family: georgia;
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
   color: white;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 20px;
+  padding: 20px;
 
 }
 
-div .main-story {
+.earth-spins {
   display: flex;
-  background-image: url(https://github.com/cazardie000/MyTimes/blob/master/resources/Images/img-story-main.png?raw=true);
-  margin-top: 0;
-  font-size: 40px;
-  text-align: left;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  height: 300px;
+  width: 300px;
+  align-items: center;
 }
 
-div .fall-cancelled {
+.memory-erase {
   display: flex;
-  background-image: url(https://github.com/cazardie000/MyTimes/blob/master/resources/Images/img-story-1.png?raw=true);
-  
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  height: 300px;
+  width: 300px;
+  align-items: center;
+}
+
+.stories-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cat-image {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  width: 300px;
+  height: 300px;
+  align-items: center;
+}
+
+.news-list span {
+  display: flex;
+  font-family: verdana;
+  font-size: 14px;
+  background-color: whitesmoke;
+  align-items: baseline;
+  border-bottom: 1px solid black;
+  padding: 10px 10px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: MediumAquamarine;
+  font-family: verdana;
+  font-size: 12px;
+  margin: auto;
+
+
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer span {
+  padding: 0px 15px 0px 15px;
+}
+
+.footer-logo {
+  font-family: georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 1px solid white;
+  padding-left: 0px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+
 }
