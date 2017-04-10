@@ -49,15 +49,16 @@ font-size: 20px;
 
 div {
   border: 1px solid black;
+  display: block;
 }
 
 
 .content {
   display: flex;
   width: 1300px;
-  margin: 0px auto; 78px auto;
+  margin: auto;
   padding-top: 116px;
-  justify-content: space-around;
+  justify-content: center;
 
 
 }
@@ -77,9 +78,28 @@ div {
 
 .image-content {
   display: flex;
-  background-image: url(https://github.com/cazardie000/MyTimes/blob/master/resources/Images/img-story-main.png?raw=true);
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+
 }
 
-div span {
+div .main-story {
   display: flex;
+  background-image: url(https://github.com/cazardie000/MyTimes/blob/master/resources/Images/img-story-main.png?raw=true);
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+div .fall-cancelled {
+  display: flex;
+  background-image: url(https://github.com/cazardie000/MyTimes/blob/master/resources/Images/img-story-1.png?raw=true);
+  
 }
